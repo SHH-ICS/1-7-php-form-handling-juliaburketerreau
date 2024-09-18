@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <title>Julia's designs'</title>
-  </head>
 
-  <body>
-    <h1>New web page!</h1>
-    <!-- Flat button with ripple -->
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
-      Submit
-    </button>
-    <form action="handler.php" method="POST">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>Julia's designs'</title>
+</head>
+
+<body>
+  <h1>New web page!</h1>
+  <!-- Flat button with ripple -->
+  <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+    Submit
+  </button>
+  <form action="handler.php" method="POST">
     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
       <input class="mdl-textfield__input" type="text" id="sample3" name="Username">
       <label class="mdl-textfield__label" for="sample3">text</label>
     </div>
-    </form>
-<!-- Textfield with Floating Label -->
-<!-- The drawer is always open in large screens. The header is always shown,
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect" type=submit>
+      Submit
+    </button>
+  </form>
+  <!-- Textfield with Floating Label -->
+  <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
             mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <div class="mdl-layout-spacer"></div>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
-        <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-          <i class="material-icons">search</i>
-        </label>
-        <div class="mdl-textfield__expandable-holder">
-          <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+          </div>
         </div>
       </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Colours</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Red</a>
+        <a class="mdl-navigation__link" href="">Orange</a>
+        <a class="mdl-navigation__link" href="">Yellow</a>
+        <a class="mdl-navigation__link" href="">Green</a>
+      </nav>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Colours</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Red</a>
-      <a class="mdl-navigation__link" href="">Orange</a>
-      <a class="mdl-navigation__link" href="">Yellow</a>
-      <a class="mdl-navigation__link" href="">Green</a>
-    </nav>
+    <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </main>
   </div>
-  <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here --></div>
-  </main>
-</div>
-  </body>
-  
+</body>
+
 </html>
