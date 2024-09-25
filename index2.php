@@ -14,16 +14,6 @@
 </head>
 
 <body>
-  <h1>New web page!</h1>
-  <form action="handler.php" method="POST">
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-      <input class="mdl-textfield__input" type="text" id="sample3" name="userName">
-      <label class="mdl-textfield__label" for="sample3">text</label>
-    </div>
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect" type=submit>
-      Submit
-    </button>
-  </form>
   <!-- Uses a transparent header that draws on top of the layout's background -->
   <style>
     .demo-layout-transparent {
