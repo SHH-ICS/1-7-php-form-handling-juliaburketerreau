@@ -21,12 +21,12 @@
   <!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
     <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title">Welcome to Ottawa!</span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="https://ottawatourism.ca/en/ottawa-insider/top-10-things-do-ottawa">Things to do</a>
+        <a class="mdl-navigation__link" href="https://ottawatourism.ca/en/ottawa-insider/guide-2024-pro-sports-ottawa">Sports teams</a>
+        <a class="mdl-navigation__link" href="https://www.britannica.com/place/Ottawa">history</a>
+        <a class="mdl-navigation__link" href="https://www.ranker.com/list/famous-people-from-ottawa/reference">famous people from here</a>
       </nav>
     </div>
     <main class="mdl-layout__content">
